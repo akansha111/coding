@@ -1,0 +1,18 @@
+#Ask the user to enter the radius of a circle (measurement from the centre point to the edge). Work out the area of the circle (π*radius2).
+import math
+radius=float(input("Enter radius: "))
+print("The area is: ",3.14*radius*radius)
+
+#Ask for the radius and the depth of a cylinder and work out the total volume (circle area*depth) rounded to three decimal places
+import math
+radius=float(input("Enter radius: "))
+depth=float(input("Enter the depth: "))
+print("The total volume: ",3.14*radius*radius*depth)
+
+#Ask the user to enter two numbers. Use whole number division to divide the first number by the second and also work out the remainder and display the answer in a user-friendly way (e.g. if they enter 7 and 2 display “7 divided by 2 is 3 with 1 remaining”).
+import math
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
+div=int (num1/num2)
+rem=num1 % num2
+print(" ",num1,"divided by ",num2,"is ",div,"with ",rem,"remaining")
