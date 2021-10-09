@@ -1,0 +1,14 @@
+import math
+print("1)Square")
+print("2)Triangle")
+number=int(input("Enter a number: "))
+
+if number==1:
+ side=int(input("Enter a side: "))
+ area=side*side
+ print("Area of square is ",area)
+if number == 2:
+  base=int(input("Enter the base of the triangle: "))
+  height=int(input("Enter the height of the triangle: "))
+  Area=(base*height)/2
+  print("Area of triangle is: ",Area)
