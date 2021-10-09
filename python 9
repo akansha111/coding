@@ -1,0 +1,8 @@
+#Ask how many people the user wants to invite to a party. If they enter a number below 10, ask for the names and after each name display “[name] has been invited”. If they enter a number which is 10 or higher, display the message “Too many people”.
+people=int(input("Enter the number of people that you want to invite to a party: "))
+if people<10:
+  for i in range (0,people):
+    name=input("\nPlease enter their names: ")
+    print(name,"has been invited")
+else:
+  print("Too many people")
