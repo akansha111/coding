@@ -1,0 +1,6 @@
+#Ask the user to accept the length and bredth and calculate the perimter of rectange and round up up to 3 decimal values                                (Hint:Perimter of rectangle=2(l*B)
+import math
+length=float(input("Enter the length of a rectangle: "))
+breadth=float(input("Enter the breadth of a rectangle: "))
+perimeter=2*(length + breadth)
+print(perimeter)
