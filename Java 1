@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class FahrenheitToCentigrade {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int Fahrenheit = scanner.nextInt();
+		double centigrade = (Fahrenheit-32)/1.8;
+		System.out.println("Fahrenheit to centigrade is:  " +centigrade);		
+
+		
+		
+}
+}
+	
