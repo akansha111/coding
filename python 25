@@ -1,0 +1,7 @@
+maths=int(input("enter the marks for maths \n"))
+business=int(input("enter the marks for business \n"))
+english=int(input("enter the marks for english \n"))
+economics=int(input("enter the marks for economics \n"))
+music=int(input("enter the marks for music \n"))
+total = maths+business+english+economics+music
+print("Total is: ",total)
