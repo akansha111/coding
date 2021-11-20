@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class PerimeterAreaOfCircleAndPerimeter {
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter length of rectangle:");
+	float length = scanner.nextFloat();
+	System.out.println("Enter breadth of rectangle:");
+	float breadth = scanner.nextFloat();
+	float recarea = length*breadth;
+	float perimeter = (2*length)+(2*breadth);
+	System.out.println("Area of rectangle is "+racarea+"Perimeter of rectangle is "+perimeter)
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter radius of circle:");
+	float radius = scanner.nextFloat();
+	double circumference = 2*3.14*radius;
+	double area = 3.14*radius*radius;
+	System.out.println("Area of circle is "+area+"circumference of circle is "+circumference)
+
+
+	
+}
