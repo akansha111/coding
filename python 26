@@ -1,0 +1,12 @@
+#The length & breadth of a rectangle and radius of a circle are input through the keyboard. Write a program to calculate the area & perimeter of the rectangle, and the area circumference of the circle.
+length=float(input("Enter the length of rectangle: "))
+breadth=float(input("\nEnter the breadth of rectangle: "))
+perimeter=(2*length)+(breadth)
+print("The perimeter of the rectangle is ",perimeter)
+recarea=length*breadth
+print("The area of the rectangle is",recarea)
+radius=float(input("Enter the radius of a circle: "))
+cirarea=3.14*radius*radius
+circumference=2*3.14*radius
+print("The area of circle is ",cirarea)
+print("The circumference of circle is ",circumference)
