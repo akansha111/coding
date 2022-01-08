@@ -18,6 +18,6 @@ scanf("%d", &economics);
 printf("enter the marks for music \n");
 scanf("%d", &music);
 total = maths+business+english+economics+music;
-printf("Total is %d ",total);
+printf("Total is: %d ",total);
 
 }
